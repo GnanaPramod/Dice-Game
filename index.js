@@ -35,10 +35,10 @@ var s=0;
 function add(p,a,i){
      var s1=a;
      sum=sum+s1;
-     if(sum<10){
+     if(sum<100){
           s=sum;  
      }   
-     if(sum==10){
+     if(sum==100){
          s=sum;
          if(p=="player1"){
             p1();
@@ -48,7 +48,7 @@ function add(p,a,i){
          }
      }
      else{
-         if(sum>10){
+         if(sum>100){
              sum=s;
          }
      }

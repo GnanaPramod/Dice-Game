@@ -8,7 +8,7 @@ h2{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 body{
-    background-color:rgb(243, 173, 243);
+    background:linear-gradient(90deg,#98c5f6,#504d98)
 }
 .main {
     display:flex;
